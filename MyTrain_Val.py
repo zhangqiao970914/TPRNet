@@ -43,8 +43,8 @@ def train(train_loader, model, optimizer, epoch, save_path, writer):
             gts = gts.cuda()
 
             preds = model(images)
-            loss_init = structure_loss(preds[0], gts) + structure_loss(preds[1], gts) + structure_loss(preds[2], gts)
-            loss_final = structure_loss(preds[3], gts)
+            loss_init = structure_loss(preds[0], gts) + structure_loss(preds[1], gts) + structure_loss(preds[2], gts) + structure_loss(preds[3], gts)
+            loss_final = structure_loss(preds[4], gts)
 
             loss = loss_init + loss_final
 
@@ -77,11 +77,11 @@ def train(train_loader, model, optimizer, epoch, save_path, writer):
                 writer.add_image('GT', grid_image, step)
 
                 # TensorboardX-Outputs
-                res = preds[3][0].clone()
+                res = preds[4][0].clone()
                 res = res.sigmoid().data.cpu().numpy().squeeze()
                 res = (res - res.min()) / (res.max() - res.min() + 1e-8)
                 writer.add_image('Pred_init', torch.tensor(res), step, dataformats='HW')
-                res = preds[3][0].clone()
+                res = preds[4][0].clone()
                 res = res.sigmoid().data.cpu().numpy().squeeze()
                 res = (res - res.min()) / (res.max() - res.min() + 1e-8)
                 writer.add_image('Pred_final', torch.tensor(res), step, dataformats='HW')
@@ -117,8 +117,8 @@ def val(test_loader, model, epoch, save_path, writer):
             gt = np.asarray(gt, np.float32)
             image = image.cuda()
 
-            S_g_pred, S_5_pred, S_4_pred, S_3_pred = model(image)
-            res = S_3_pred
+            S_g_pred, S_5_pred, S_4_pred, S_3_pred, S_2_pred = model(image)
+            res = S_2_pred
             res = F.upsample(res, size=gt.shape, mode='bilinear', align_corners=False)
             res = res.sigmoid().data.cpu().numpy().squeeze()
             res = (res - res.min()) / (res.max() - res.min() + 1e-8)
