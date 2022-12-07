@@ -1,2 +1,2 @@
 # TPRNet: Camouflaged Object Detection via Transformer-induced Progressive Refinement Network
- [Original result](https://mp.weixin.qq.com/s/rxJ5G2be9nPhTaIM4CfHbg)
+ [Result](https://pan.baidu.com/s/1WQLi2a6KuqBn2jwuWZwpdQ)提取码：nepu
