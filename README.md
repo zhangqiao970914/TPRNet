@@ -7,3 +7,12 @@ When we were sorting out the code, we couldn't find the original trained model, 
 
 # Acknowledgements
 The code is based on [SINet_v2](https://github.com/GewelsJI/SINet-V2).
+# Citation
+@article{zhang2022tprnet,
+  title={TPRNet: camouflaged object detection via transformer-induced progressive refinement network},
+  author={Zhang, Qiao and Ge, Yanliang and Zhang, Cong and Bi, Hongbo},
+  journal={The Visual Computer},
+  pages={1--15},
+  year={2022},
+  publisher={Springer}
+}
