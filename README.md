@@ -1,5 +1,6 @@
 # TPRNet: Camouflaged Object Detection via Transformer-induced Progressive Refinement Network
 When we were sorting out the code, we couldn't find the original trained model, so we retrained the network.
+# ReTrain_mode:[mode](https://pan.baidu.com/s/1DMLo7wYYfyJQI-2RmxJQGA), 提取码：27jy
 # Results reported in the paper: [Result](https://pan.baidu.com/s/1WQLi2a6KuqBn2jwuWZwpdQ), 提取码：nepu
 # Download train datasets:[TrainDatasets](https://pan.baidu.com/s/1QSwZK_fJWdznkmyBli2fdg), 提取码：nepu
 # Download test datasets:[TestDatastes](https://pan.baidu.com/s/1akzyy9olDdorKIvToDx0qQ), 提取码：nepu 
