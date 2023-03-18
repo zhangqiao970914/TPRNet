@@ -2,6 +2,8 @@
 When we were sorting out the code, we couldn't find the original trained model, so we retrained the network.
 # Network Architecture
 ![image](https://github.com/zhangqiao970914/TPRNet/blob/main/image/TPRNet.png)
+# RCU
+![images](https://github.com/zhangqiao970914/TPRNet/blob/main/image/cod_ccu.png)
 # Result
 * ReTrain_result:[Result](https://pan.baidu.com/s/1Hs8EXWb4K0dZhD60kvH5bQ), 提取码：1wqp
 * Results reported in the paper: [Result](https://pan.baidu.com/s/1WQLi2a6KuqBn2jwuWZwpdQ), 提取码：nepu
