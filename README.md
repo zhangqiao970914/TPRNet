@@ -6,6 +6,7 @@
 # Result
 * ReTrain_result:[Result](https://pan.baidu.com/s/1Hs8EXWb4K0dZhD60kvH5bQ), 提取码：1wqp
 * Results reported in the paper: [Result](https://pan.baidu.com/s/1WQLi2a6KuqBn2jwuWZwpdQ), 提取码：nepu
+* Results with PVTv2 as backbone：[Result](链接：https://pan.baidu.com/s/1_FTANkDaqiaK6oL96GE6_g), 提取码：avo4
 # Mode
 * ReTrain_mode:[Mode](https://pan.baidu.com/s/1DMLo7wYYfyJQI-2RmxJQGA), 提取码：27jy
 # Datasets
