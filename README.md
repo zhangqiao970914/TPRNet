@@ -7,7 +7,7 @@
 # Result
 * ReTrain with Res2Net50 as backbone:[Result](https://pan.baidu.com/s/1Hs8EXWb4K0dZhD60kvH5bQ), 提取码：1wqp
 * Results with PVTv2 as backbone：[Result](https://pan.baidu.com/s/1_FTANkDaqiaK6oL96GE6_g), 提取码：avo4
-* Results reported in the paper: [Result](https://pan.baidu.com/s/1g1wWOCs7H--uuwcpRBSRFw), 提取码：mhhd
+* Results reported in the paper: [baidu](https://pan.baidu.com/s/1g1wWOCs7H--uuwcpRBSRFw), 提取码：mhhd; [google](https://drive.google.com/file/d/1iFhEbgo4liXAlrS5t7kBGGgVbrBeN1Ba/view?usp=share_link)
 # Mode
 * ReTrain_mode:[Mode](https://pan.baidu.com/s/1DMLo7wYYfyJQI-2RmxJQGA), 提取码：27jy
 # Datasets
